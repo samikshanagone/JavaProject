@@ -9,6 +9,9 @@ public static void main(String[] args) {
 	list.add("mayuri");
 	list.add("sita");
 	list.add("gita");
-	System.out.println(list);
+	
+	for(String s:list) {
+		System.out.println(s);
+	}
 }
 }
