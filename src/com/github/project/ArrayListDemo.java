@@ -10,8 +10,6 @@ public static void main(String[] args) {
 	list.add("sita");
 	list.add("gita");
 	
-	for(String s:list) {
-		System.out.println(s);
-	}
+	list.forEach(i->System.out.println(i));
 }
 }

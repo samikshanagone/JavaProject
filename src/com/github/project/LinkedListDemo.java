@@ -10,7 +10,7 @@ public class LinkedListDemo {
 		list.add(2);
 		list.add(3);
 
-		System.out.println(list);
+		list.forEach(x->System.out.println(x));
 	}
 
 }
